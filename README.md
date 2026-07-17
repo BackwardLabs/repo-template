@@ -15,6 +15,7 @@
 - 버그, 기능 요청, 작업 제안은 GitHub Issues에 등록합니다.
 - 작업 브랜치는 동기화된 Linear 이슈의 **Copy git branch name**으로 생성합니다.
 - 변경 사항은 Pull Request로 제출합니다.
+- 코딩 에이전트는 [AGENTS.md](AGENTS.md)의 공통 지침을 따릅니다. Claude Code는 [CLAUDE.md](CLAUDE.md)를 통해 같은 지침을 불러옵니다.
 - 기여 방법은 [CONTRIBUTING.md](CONTRIBUTING.md)를 확인하세요.
 
 ## 저장소 초기 설정

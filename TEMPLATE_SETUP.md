@@ -14,6 +14,8 @@
 - [ ] `.github/CODEOWNERS.example`을 검토했습니다. 실제 소유자가 정해졌다면 `CODEOWNERS`로 복사하고, 아니면 예시 파일을 삭제했습니다.
 - [ ] Issues 기능을 활성화하고 **New issue** 화면에서 버그, 기능 요청, 작업 템플릿을 확인했습니다.
 - [ ] `bug`, `enhancement` 라벨이 존재하는지 확인했습니다. 템플릿 저장소의 라벨과 저장소 설정은 새 저장소에 그대로 복제되지 않을 수 있습니다.
+- [ ] Linear의 GitHub integration에 새 저장소를 연결하고 팀별 브랜치 형식을 설정했습니다.
+- [ ] GitHub Issues Sync 방향을 정했습니다. 여러 저장소를 한 Linear 팀에 연결할 때 여러 개의 one-way sync는 가능하지만 two-way sync는 한 번에 하나의 저장소만 사용할 수 있습니다.
 - [ ] 기본 브랜치 ruleset 또는 branch protection을 설정하고 PR 리뷰 수, 코드 소유자 승인, 필요한 상태 검사를 정했습니다.
 - [ ] 보안 제보 채널을 정했습니다. 공개 저장소라면 private vulnerability reporting 또는 별도 `SECURITY.md`를 설정합니다.
 - [ ] 팀에 맞지 않는 이슈 필드와 PR 체크 항목을 정리했습니다.
@@ -24,6 +26,7 @@
 ## 멀티 레포 협업 기준
 
 - 관련 저장소와 PR을 이슈 및 PR 본문에 모두 링크합니다.
+- Linear 이슈의 **Copy git branch name**으로 브랜치를 만들고 이슈 ID를 유지합니다.
 - 병합 순서가 있으면 의존성, 호환성 유지 기간, 배포 순서를 명시합니다.
 - 여러 저장소를 동시에 깨뜨리는 변경보다 이전 버전과 호환되는 단계적 변경을 우선합니다.
 - 저장소별 담당 팀이 다르면 각 저장소에 별도의 `CODEOWNERS`를 설정합니다.

@@ -2,6 +2,11 @@ name: 작업 등록
 description: 구현, 문서, 운영 등 실행할 작업과 완료 조건을 정의해 주세요.
 title: "[Task] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub Issues Sync가 활성화된 저장소에서는 이 이슈를 Linear에 다시 만들지 마세요. 동기화된 Linear 이슈가 생성되면 **Copy git branch name**으로 작업 브랜치를 만듭니다.
+
   - type: textarea
     id: objective
     attributes:

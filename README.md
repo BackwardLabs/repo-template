@@ -13,6 +13,7 @@
 ## 협업
 
 - 버그, 기능 요청, 작업 제안은 GitHub Issues에 등록합니다.
+- 작업 브랜치는 동기화된 Linear 이슈의 **Copy git branch name**으로 생성합니다.
 - 변경 사항은 Pull Request로 제출합니다.
 - 기여 방법은 [CONTRIBUTING.md](CONTRIBUTING.md)를 확인하세요.
 

@@ -9,7 +9,7 @@ body:
       value: |
         제보 전에 기존 이슈를 검색해 주세요. 로그와 화면 캡처에서는 민감 정보를 제거해 주세요.
 
-        GitHub Issues Sync가 활성화된 저장소에서는 이 이슈를 Linear에 다시 만들지 마세요. 동기화된 Linear 이슈가 생성되면 **Copy git branch name**으로 작업 브랜치를 만듭니다.
+        이 GitHub 이슈는 Linear에 자동 생성됩니다. Linear에 같은 이슈를 다시 만들지 마세요. 생성된 Linear 이슈에서 **Copy git branch name**으로 작업 브랜치를 만드세요.
 
   - type: checkboxes
     id: duplicate-check

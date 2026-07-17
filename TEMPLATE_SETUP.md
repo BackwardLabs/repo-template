@@ -17,7 +17,7 @@
 - [ ] Issues 기능을 활성화하고 **New issue** 화면에서 버그, 기능 요청, 작업 템플릿을 확인했습니다.
 - [ ] `bug`, `enhancement` 라벨이 존재하는지 확인했습니다. 템플릿 저장소의 라벨과 저장소 설정은 새 저장소에 그대로 복제되지 않을 수 있습니다.
 - [ ] Linear의 GitHub integration에 새 저장소를 연결하고 팀별 브랜치 형식을 설정했습니다.
-- [ ] GitHub Issues Sync 방향을 정했습니다. 여러 저장소를 한 Linear 팀에 연결할 때 여러 개의 one-way sync는 가능하지만 two-way sync는 한 번에 하나의 저장소만 사용할 수 있습니다.
+- [ ] GitHub Issues Sync를 **One-way: GitHub → Linear**로 연결했습니다. 여러 저장소는 동일한 Linear 팀에 각각 연결합니다.
 - [ ] 기본 브랜치 ruleset 또는 branch protection을 설정하고 PR 리뷰 수, 코드 소유자 승인, 필요한 상태 검사를 정했습니다.
 - [ ] 보안 제보 채널을 정했습니다. 공개 저장소라면 private vulnerability reporting 또는 별도 `SECURITY.md`를 설정합니다.
 - [ ] 팀에 맞지 않는 이슈 필드와 PR 체크 항목을 정리했습니다.

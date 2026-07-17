@@ -14,7 +14,7 @@
 1. 작업을 시작하기 전에 Linear 이슈가 있는지 확인합니다.
 2. Linear 이슈에서 **Copy git branch name**을 사용합니다. 단축키는 `Cmd/Ctrl` + `Shift` + `.`입니다.
 3. 복사한 이름을 그대로 사용해 브랜치를 만듭니다. Linear 이슈 ID(예: `TEAM-123`)를 제거하지 마세요.
-4. GitHub에서 생성한 이슈가 Linear와 동기화되는 저장소라면 Linear에 같은 이슈를 다시 만들지 않습니다. 동기화된 Linear 이슈가 생성된 후 그 이슈의 브랜치 이름을 복사합니다.
+4. GitHub 이슈는 Linear에 자동 생성되므로 Linear에 같은 이슈를 다시 만들지 않습니다. 생성된 Linear 이슈에서 브랜치 이름을 복사합니다.
 
 브랜치 형식은 Linear의 GitHub integration 설정에서 팀 공통 형식으로 관리합니다.
 
